@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		27F5695E2017A39D001B061F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F5695D2017A39D001B061F /* AppDelegate.swift */; };
-		27F569602017A39D001B061F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F5695F2017A39D001B061F /* ViewController.swift */; };
 		27F569632017A39D001B061F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F569612017A39D001B061F /* Main.storyboard */; };
 		27F569652017A39D001B061F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27F569642017A39D001B061F /* Assets.xcassets */; };
 		27F569682017A39D001B061F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F569662017A39D001B061F /* LaunchScreen.storyboard */; };
+		27F569702017A7A9001B061F /* DaysOfTheWeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F5696F2017A7A9001B061F /* DaysOfTheWeekViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		27F5695A2017A39D001B061F /* daysOfTheWeek2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = daysOfTheWeek2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27F5695D2017A39D001B061F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		27F5695F2017A39D001B061F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		27F569622017A39D001B061F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27F569642017A39D001B061F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27F569672017A39D001B061F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27F569692017A39D001B061F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27F5696F2017A7A9001B061F /* DaysOfTheWeekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysOfTheWeekViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +54,8 @@
 		27F5695C2017A39D001B061F /* daysOfTheWeek2 */ = {
 			isa = PBXGroup;
 			children = (
+				27F5696F2017A7A9001B061F /* DaysOfTheWeekViewController.swift */,
 				27F5695D2017A39D001B061F /* AppDelegate.swift */,
-				27F5695F2017A39D001B061F /* ViewController.swift */,
 				27F569612017A39D001B061F /* Main.storyboard */,
 				27F569642017A39D001B061F /* Assets.xcassets */,
 				27F569662017A39D001B061F /* LaunchScreen.storyboard */,
@@ -136,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27F569602017A39D001B061F /* ViewController.swift in Sources */,
+				27F569702017A7A9001B061F /* DaysOfTheWeekViewController.swift in Sources */,
 				27F5695E2017A39D001B061F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
